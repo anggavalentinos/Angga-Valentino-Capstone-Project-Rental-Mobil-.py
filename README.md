@@ -1,6 +1,6 @@
 # Capstone Project : Modul 1 - Pembuatan Rental Mobil
-Aplikasi ini dibuat untuk Konsumen yang ingin menyewa atau berkerja sama menyewakan mobil pribadinya
-Aplikasi ini bisa digunakan oleh Owner dan
+Aplikasi ini dibuat untuk Konsumen yang ingin menyewa atau bekerja sama menyewakan mobil pribadinya
+Aplikasi ini bisa digunakan oleh Owner dan konsumen.
 
 ## Fitur Aplikasi
 - Fitur menampilkan seluruh daftar Rental mobil.
