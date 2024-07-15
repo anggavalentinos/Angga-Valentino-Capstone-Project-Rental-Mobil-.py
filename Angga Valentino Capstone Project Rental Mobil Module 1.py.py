@@ -9,7 +9,7 @@ Rental_Mobil = {
     "Jenis": ["HATCHBACK", "MPV", "HATCHBACK", "HATCHBACK", "SUV", "MPV", "SUV", "MPV", "MVP", "MPV", "MPV", "OFF ROAD"],
 }
 
-def Daftar_Mobil():     # PILIHAN 1. MENAMPILKAN DAFTAR MOBIL
+def Daftar_Mobil():
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -28,7 +28,7 @@ def Daftar_Mobil():     # PILIHAN 1. MENAMPILKAN DAFTAR MOBIL
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
         
 
-def Menambah_Mobil():   # PILIHAN 2. MENAMBAHKAN MOBIL
+def Menambah_Mobil():  
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -75,7 +75,7 @@ def Menambah_Mobil():   # PILIHAN 2. MENAMBAHKAN MOBIL
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-def edit_mobil() : # PILIHAN 3 EDIT MOBIL
+def edit_mobil() : 
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -84,34 +84,38 @@ def edit_mobil() : # PILIHAN 3 EDIT MOBIL
             print("""
 List Menu Edit:
 1.Main Menu
-2.Edit Stock
-3.Edit Harga
-4.Edit Hari
-5.Edit Merk
-6.Edit Jenis
-7.Keluar Program """
+2.Edit Nama
+3.Edit Stock
+4.Edit Harga
+5.Edit Hari
+6.Edit Merk
+7.Edit Jenis
+8.Keluar Program """
                   )
             main_menu = int(input("Masukan kode yang akan diinput: "))
             if main_menu == 1:
                 rental()
             elif main_menu == 2:
-                edit_stock()
+                edit_nama()
             elif main_menu == 3:
-                edit_harga()
+                edit_stock()
             elif main_menu == 4:
-                edit_hari()
+                edit_harga()
             elif main_menu == 5:
+                edit_hari()
+            elif main_menu == 6:
                 edit_merk()
-            elif main_menu == 6:  
+            elif main_menu == 7:  
                 edit_jenis()
-            elif main_menu == 7: 
+            elif main_menu == 8: 
                 exit_program()
             else:
                 print("\nPilihan tidak valid, Silahkan masukkan lagi")
     except ValueError:
         print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-    while True: # MENGEDIT NAMA MOBIL 1A.
+def edit_nama():
+    while True: 
         try:
             editnama = int(input("\nMasukkan indeks Nama Mobil yang mau diedit: "))
             if 0 <= editnama < len(Rental_Mobil["Nama Mobil"]):
@@ -125,7 +129,7 @@ List Menu Edit:
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-def edit_stock(): # MENGEDIT STOCK MOBIL 2A.
+def edit_stock():
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -143,7 +147,7 @@ def edit_stock(): # MENGEDIT STOCK MOBIL 2A.
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-def edit_harga(): # MENGEDIT HARGA MOBIL 3A.
+def edit_harga():
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -160,7 +164,7 @@ def edit_harga(): # MENGEDIT HARGA MOBIL 3A.
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-def edit_hari(): # MENGEDIT HARI 4A.
+def edit_hari(): 
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -177,7 +181,7 @@ def edit_hari(): # MENGEDIT HARI 4A.
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-def edit_merk(): # MENGEDIT MERK MOBIL 5A.
+def edit_merk():
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -194,7 +198,7 @@ def edit_merk(): # MENGEDIT MERK MOBIL 5A.
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-def edit_jenis():  # MENGEDIT JENIS MOBIL 6A.
+def edit_jenis(): 
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -211,7 +215,7 @@ def edit_jenis():  # MENGEDIT JENIS MOBIL 6A.
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-def Menghapus_Mobil():  # PILIHAN 4 MENGHAPUS MOBIL
+def Menghapus_Mobil(): 
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -247,7 +251,7 @@ def Menghapus_Mobil():  # PILIHAN 4 MENGHAPUS MOBIL
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-def Menyewa_Mobil():    # PILIHAN 5 MENYEWA MOBIL
+def Menyewa_Mobil():  
     headers = Rental_Mobil.keys()
     print(tb(Rental_Mobil, showindex="always", headers=headers, tablefmt="github",))
     print()
@@ -261,7 +265,7 @@ def Menyewa_Mobil():    # PILIHAN 5 MENYEWA MOBIL
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-    while True:     # Mobil yang akan disewa
+    while True:    
         try:
             jumlahsewa = int(input("\nMasukkan jumlah mobil yang ingin disewa: "))
             if jumlahsewa > Rental_Mobil["Stock"][indexsewa]:
@@ -271,7 +275,7 @@ def Menyewa_Mobil():    # PILIHAN 5 MENYEWA MOBIL
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
 
-    while True:     # Berapa hari akan disewa
+    while True:     
         try:
             jumlahhari = int(input("\nMasukkan berapa Hari yang ingin disewa: "))
             if jumlahhari > Rental_Mobil["Hari"][indexsewa]:
@@ -287,7 +291,7 @@ def Menyewa_Mobil():    # PILIHAN 5 MENYEWA MOBIL
     totalsemua = totalsewa * jumlahhari
     print(f"Total yang harus dibayar : {totalsemua}")
 
-    while True:     # Pembayaran
+    while True:  
         try:
             total_uang = int(input("\nMasukkan uang Anda: "))
             if total_uang < totalsemua:
@@ -316,7 +320,7 @@ def Menyewa_Mobil():    # PILIHAN 5 MENYEWA MOBIL
         except ValueError:
             print("\nMasukan tidak valid. Silakan masukkan nomor pilihan yang valid.")
         
-def exit_program():  # PILIHAN 6
+def exit_program():  
     while True:
         try:
             print("\nApakah anda yakin keluar dari Rental Mobil SARAGICAR")  
