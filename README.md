@@ -67,10 +67,10 @@ Fitur ini dapat menghapus mobil yang ada di database. owner maupun konsumen dapa
 Fitur ini juga dilengkapi dengan kembali ke menu, menghapus kembali dan keluar dari progam jika owner dan konsumen tidak lagi ingin mengoperasikan.
 
 ## 5. Menyewa produk mobil.
-Fitur ini dapat menampilkan pilihan mobil untuk konsumen yang akan disewa dari berapa mobil akan disewa dan juga berapa hari yang akan disewa, fitur ini juga langsung melakuan tranksasi sesuai pilihan konsumen dan akan diarah pembayaran sesuai harga yang sudah ditentukan jika konsumen memasukan uang tidak sesuai fitur ini akan menampilkan kekurang uang yang harus ditambhkan tetapi jika uang yang dimasukan sesuai fitur ini akan mengucapkan 'terima kasih' dan jika uang diberi lebih fitur ini akan menampilkan uang kembalian dan juga ucapan 'terima kasih'.
+Fitur ini dapat menampilkan pilihan mobil untuk konsumen yang akan disewa dari berapa mobil akan disewa dan juga berapa hari yang akan disewa, fitur ini juga langsung melakuan tranksasi sesuai pilihan konsumen dan akan diarah pembayaran sesuai harga yang sudah ditentukan jika konsumen memasukan uang tidak sesuai fitur ini akan menampilkan kekurangan uang yang harus ditambhkan tetapi jika uang yang dimasukan sesuai fitur ini akan mengucapkan 'terima kasih' dan jika uang diberi lebih fitur ini akan menampilkan uang kembalian dan juga ucapan 'terima kasih'.
 
 ### - Fitur kembali ke menu, menyewa kembali dan keluar dari program.
 Fitur ini juga dilengkapi dengan kembali ke menu, menyewa kembali dan keluar dari progam jika konsumen tidak lagi ingin mengoperasikan.
 
 ## 6. Keluar dari program.
-Fitur ini dapat mengakhir suatu program setelah itu owner maupun konsume akan di suruh memilih Konfirmasi 'Y' untuk keluar dari Program atau 'N' untuk kembali ke Menu.
+Fitur ini dapat mengakhiri suatu program setelah itu owner maupun konsumen akan di suruh memilih Konfirmasi 'Y' untuk keluar dari Program atau 'N' untuk kembali ke Menu.
