@@ -12,8 +12,8 @@ Aplikasi ini bisa digunakan oleh Owner dan konsumen.
 - Fitur menampilkan kembali ke menu, edit kembali atau keluar dari program
 - Fitur menampilkan menyewa mobil.
 - Fitur menampilkan kembali ke menu, sewa lagi atau keluar dari program
-- Fitur menghitung total biaya bedasarkan mobil , stock , jumlah hari yang disewa.
-- Fitur melakukakan transaksi sesuai harga total.
+- Fitur menghitung total biaya berdasarkan mobil , stock , jumlah hari yang disewa.
+- Fitur melakukan transaksi sesuai harga total.
 - Fitur ingin kembali ke menu, sewa lagi atau keluar dari program.
 - Fitur Keluar dari program.
 
@@ -69,7 +69,7 @@ Fitur ini juga dilengkapi dengan kembali ke menu, menghapus kembali dan keluar d
 ## 5. Menyewa produk mobil.
 Fitur ini dapat menampilkan pilihan mobil untuk konsumen yang akan disewa dari berapa mobil akan disewa dan juga berapa hari yang akan disewa, fitur ini juga langsung melakuan tranksasi sesuai pilihan konsumen dan akan diarah pembayaran sesuai harga yang sudah ditentukan jika konsumen memasukan uang tidak sesuai fitur ini akan menampilkan kekurang uang yang harus ditambhkan tetapi jika uang yang dimasukan sesuai fitur ini akan mengucapkan 'terima kasih' dan jika uang diberi lebih fitur ini akan menampilkan uang kembalian dan juga ucapan 'terima kasih'.
 
-### - Fitur kembali ke menu, mmenyewa kembali dan keluar dari program.
+### - Fitur kembali ke menu, menyewa kembali dan keluar dari program.
 Fitur ini juga dilengkapi dengan kembali ke menu, menyewa kembali dan keluar dari progam jika konsumen tidak lagi ingin mengoperasikan.
 
 ## 6. Keluar dari program.
